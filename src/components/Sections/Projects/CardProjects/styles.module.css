@@ -1,0 +1,38 @@
+.Card {
+    position: relative;
+    border: 2px solid var(--Grey-palette-White);
+    flex-grow: 1;
+    width: clamp(250px, calc(50% - 1rem), 439px); 
+    height: 183px;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+.Img {
+    position: absolute; 
+    top: 1rem; 
+    right: 1rem; 
+    width: 35px;
+    height: 35px;
+}
+
+.Name{
+    font-size: var(--Title3-Size);
+    font-weight: var(--Title3-Bold);
+    color: var(--Grey-palette-White);
+}
+
+.Description{
+    margin-top: 1rem;
+    font-size: var(--ParagraphOrLink-Size);
+    color: var(--Grey-palette-White);
+}
+
+.Link{
+    position: absolute; 
+    bottom: 1.5rem; 
+    left: 1rem; 
+    font-size: var(--ParagraphOrLink-Size);
+    font-weight: var(--Link-Bold);
+    color: var(--Color-primary);
+}

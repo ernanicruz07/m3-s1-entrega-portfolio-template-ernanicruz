@@ -1,0 +1,95 @@
+.Section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 6.875rem;
+    gap: 2rem;
+}
+
+.divInfomation {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.username {
+    color: var(--Color-primary);
+    font-weight: 400;
+    font-size: var(--Label-Size);
+    line-height: 22px;
+}
+
+.welcome {
+    color: var(--Grey-palette-White);
+    font-weight: var(--Title1-Bold);
+    font-size: var(--Title1-Size);
+    Width: 20rem;
+}
+
+.nicePhrase {
+    color: var(--Grey-palette-White);
+    font-size: var(--ParagraphOrLink-Size);
+}
+
+.button {
+    background-color: var(--Color-primary);
+    color: var(--Grey-palette-White);
+    font-weight: 600;
+    font-size: 14px;
+    Width: 130px;
+    Height: 39px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 600ms;
+}
+
+@media (min-width: 1024px) {
+    .Section {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 6.875rem;
+        margin-left: 0;
+    }
+
+    .divInfomation {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .username {
+        color: var(--Color-primary);
+        font-weight: 400;
+        font-size: var(--Label-Size);
+        line-height: 22px;
+    }
+
+    .welcome {
+        color: var(--Grey-palette-White);
+        font-weight: var(--Title1-Bold);
+        font-size: var(--Title1-Size);
+        Width: 20rem;
+    }
+
+    .nicePhrase {
+        color: var(--Grey-palette-White);
+        font-size: var(--ParagraphOrLink-Size);
+    }
+
+    .button {
+        background-color: var(--Color-primary);
+        color: var(--Grey-palette-White);
+        font-weight: 600;
+        font-size: 14px;
+        Width: 130px;
+        Height: 39px;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: 600ms;
+    }
+
+    .button:hover {
+        background-color: var(--Color-primary-Hover);
+    }
+}

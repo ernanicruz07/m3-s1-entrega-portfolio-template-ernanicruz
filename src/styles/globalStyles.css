@@ -1,0 +1,29 @@
+:root {
+    --Color-primary: #6880FF;
+    --Color-primary-Hover: #7C91FF;
+
+    --Grey-palette-Black: #000000;
+    --Grey-palette-White: #ffffff;
+
+    --Title1-Bold: Bold;
+    --Title1-Size: 48px;
+    --Title2-Bold: Bold;
+    --Title2-Size: 40px;
+    --Title3-Bold: Bold;
+    --Title3-Size: 22px;
+
+    --Label-Size: 14px;
+
+    --Link-Bold: Bold;
+    --ParagraphOrLink-Size: 16px;
+}
+
+body {
+    background-color: var(--Grey-palette-Black);
+}
+
+.conteiner {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-inline: 1rem;
+}

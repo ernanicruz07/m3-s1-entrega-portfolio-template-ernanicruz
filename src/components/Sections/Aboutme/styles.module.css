@@ -1,0 +1,44 @@
+.Section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5rem 0 1rem 0;
+}
+
+.aboutMe {
+    font-weight: var(--Title1-Bold);
+    font-size: var(--Title1-Size);
+    color: var(--Grey-palette-White);
+}
+
+.aboutMeInformation {
+    margin-top: 1rem;
+    color: var(--Grey-palette-White);
+    font-size: var(--ParagraphOrLink-Size);
+    line-height: 30px;
+    Width: 32rem;
+}
+
+@media (min-width: 1024px) {
+    .Section {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 6.875rem;
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+    .aboutMe {
+        font-weight: var(--Title1-Bold);
+        font-size: var(--Title1-Size);
+        color: var(--Grey-palette-White);
+    }
+
+    .aboutMeInformation {
+        color: var(--Grey-palette-White);
+        font-size: var(--ParagraphOrLink-Size);
+        line-height: 30px;
+        Width: 32rem;
+        margin: 0;
+    }
+}

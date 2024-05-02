@@ -1,0 +1,27 @@
+.List {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid var(--Grey-palette-White);
+    width: 100%;
+    Height: 86px;
+    border-radius: 25px;
+}
+
+.Img {
+    Width: 2rem;
+    Height: 2rem;
+}
+
+.Name{
+    font-size: var(--Title3-Size);
+    font-weight: var(--Title3-Bold);
+    color: var(--Grey-palette-White);
+    margin-left: 1rem;
+}
+
+@media (min-width: 770px) {
+    .List{
+        width: 312px;
+    }
+}
